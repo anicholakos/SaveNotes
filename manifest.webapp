@@ -1,0 +1,15 @@
+{
+    "version":"2.0",
+    "name": "Notes",
+    "description": "Uses the HTML5 Storage API to demonstrate how to save data in your Firefox OS Apps.",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/images/notes_128.png",
+        "512": "/images/notes_512.png"
+    },
+    "developer": {
+        "name": "Romin Irani",
+        "url": "http://www.rominirani.com"
+    },
+    "default_locale": "en"
+}
