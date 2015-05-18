@@ -33,6 +33,9 @@ $(document).ready(function() {
             localStorage.setItem(noteTitle, noteDetails);
             alert("Your note has been saved");
         }
+        //Clear input areas for new note
+        $("#noteTitle").val("");
+        $("#noteDetails").val("");
     });
 
     $("#btnClearNotes").click(function() {
@@ -45,6 +48,6 @@ $(document).ready(function() {
     $("#clearAllNotesBtn").click(function() {
         localStorage.clear();
         $("#note-list").html("");
-        alert("All Notes have got cleared");
+        alert("All notes have been cleared");
     });
 });

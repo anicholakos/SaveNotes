@@ -1,23 +1,23 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <title>Notes</title> 
-  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes</title>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
   <script src="jquery-2.1.4.min.js"></script>
   <script src="jquery.mobile-1.4.5.min.js"></script>
   <script src="app.js"></script>
-</head> 
-	
-<body> 
+</head>
+
+<body>
 
 <!-- Start of first page: #home -->
 <div data-role="page" id="home">
 
   <div data-role="header" data-position="fixed">
-    <h3>Notes</h3>  
+    <h3>Notes</h3>
   </div><!-- /header -->
 
   <div data-role="content">
@@ -28,9 +28,9 @@
 </div><!-- /page home -->
 
 <!-- Start of the second page : #add-notes -->
-<div data-role="page" id="add-notes" data-add-back-btn="true">
+<div data-role="page" id="add-notes">
 
-  <div data-role=header>
+  <div data-role="header" data-add-back-btn="true">
     <h1>Add a Note</h1>
   </div>
   <div data-role="content">
@@ -44,9 +44,9 @@
 </div><!-- /page add-notes -->
 
 <!-- Start of the third page : #view-notes -->
-<div data-role="page" id="view-notes" data-add-back-btn="true">
+<div data-role="page" id="view-notes">
 
-  <div data-role=header>
+  <div data-role=header data-add-back-btn="true">
     <h1>List of Notes</h1>
     <a href="#" data-role="button" class="ui-btn-right"
     id="clearAllNotesBtn">Clear</a>
