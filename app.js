@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $("#btnAddNote").click(function() {
         //Change to the add-notes
-        $.mobile.changePage ($("#add-notes"));
+        $.mobile.changePage($("#add-notes"));
     });
 
     $("#btnViewNotes").click(function() {
         //Change to the add-notes
-        $.mobile.changePage ($("#view-notes"));
+        $.mobile.changePage($("#view-notes"));
         //Empty the list first
         $("#note-list").html("");
         //Read the notes
